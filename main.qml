@@ -12,9 +12,9 @@ ApplicationWindow {
 
     Text {
         id: tekst
-        text: qsTr("RMB - Create      |     LMB - Destroy")
+        text: qsTr("RightMouseButton - Create      |     LeftMouseButton - Destroy")
         color: "white"
-        x: mainWindow.width/3
+        x: mainWindow.width/5.5
         y: mainWindow.height - (mainWindow.height * 0.9)
     }
 
